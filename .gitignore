@@ -1,0 +1,23 @@
+# 数据与索引（运行时生成）
+data/
+chroma_db/
+
+# 离线依赖包与离线虚拟环境（可由 offline/download_pkgs.bat 再生）
+offline/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 环境配置
+.env
+
+# 工具
+.pytest_cache/
+.mypy_cache/
+
+# 本地环境变量备份
+.env.bak
+.env.local
